@@ -1,0 +1,20 @@
+<ConfigResolver>
+    <config>
+        <name>job1</name>
+        <pool>dev_spark</pool>
+        <cronTime>0-59/5 * * * *</cronTime>
+        <jarVersion>DWH1.0.1</jarVersion>
+    </config>
+    <config >
+        <name>job2</name>
+        <pool>dev_spark_huge</pool>
+        <cronTime>0-59/5 * * * *</cronTime>
+        <jarVersion>DWH1.0.2</jarVersion>
+    </config>
+    <config>
+        <name>job3</name>
+        <pool>dev_spark</pool>
+        <cronTime>0-59/10 * * * *</cronTime>
+        <jarVersion>DWH1.0.2</jarVersion>
+    </config>
+</ConfigResolver>
